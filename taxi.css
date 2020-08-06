@@ -1,0 +1,189 @@
+header
+{
+    background-color:#184de0;
+    padding:50px;
+    text-align: center;
+}
+h2,h1
+{
+    color:white;
+}
+header h5
+{
+    color:yellow;
+}
+h2{
+    font-size: 50px;
+}
+nav{
+    background-color:grey;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+    padding:25px;
+}
+article
+{
+    width:31%;
+    float:left;
+    padding:15px;
+    text-align:justify;
+}
+section:after
+        {
+        clear:both;
+        display:table;
+        content:" ";
+           }
+           footer
+           {
+               background-color: blue;
+               color:white;
+               padding:20px;
+               text-align:center;
+           }
+           @media only screen and (max-width:600px)
+           {
+              .small-col-1
+              {width:8.33%;} 
+              .small-col-2
+              {width:16.66%;} 
+              .small-col-3
+              {width:25%;} 
+              .small-col-4
+              {width:33.33%;} 
+              .small-col-5
+              {width:41.66%;} 
+              .small-col-6
+              {width:50%;} 
+              .small-col-7
+              {width:58.33%;} 
+              .small-col-8
+              {width:66.66%;} 
+              .small-col-9
+              {width:75%;} 
+              .small-col-10
+              {width:83.33%;} 
+              .small-col-11
+              {width:91.66%;} 
+              .small-col-12
+              {width:100%;} 
+           }
+           @media only screen and (min-width:600px and up)
+           {
+              .small-col-1
+              {width:8.33%;} 
+              .small-col-2
+              {width:16.66%;} 
+              .small-col-3
+              {width:25%;} 
+              .small-col-4
+              {width:33.33%;} 
+              .small-col-5
+              {width:41.66%;} 
+              .small-col-6
+              {width:50%;} 
+              .small-col-7
+              {width:58.33%;} 
+              .small-col-8
+              {width:66.66%;} 
+              .small-col-9
+              {width:75%;} 
+              .small-col-10
+              {width:83.33%;} 
+              .small-col-11
+              {width:91.66%;} 
+              .small-col-12
+              {width:100%;} 
+           }
+           @media only screen and (min-width:768px)
+           {
+              .small-col-1
+              {width:8.33%;} 
+              .small-col-2
+              {width:16.66%;} 
+              .small-col-3
+              {width:25%;} 
+              .small-col-4
+              {width:33.33%;} 
+              .small-col-5
+              {width:41.66%;} 
+              .small-col-6
+              {width:50%;} 
+              .small-col-7
+              {width:58.33%;} 
+              .small-col-8
+              {width:66.66%;} 
+              .small-col-9
+              {width:75%;} 
+              .small-col-10
+              {width:83.33%;} 
+              .small-col-11
+              {width:91.66%;} 
+              .small-col-12
+              {width:100%;} 
+           }
+           @media only screen and (min-width:992px)
+           {
+              .small-col-1
+              {width:8.33%;} 
+              .small-col-2
+              {width:16.66%;} 
+              .small-col-3
+              {width:25%;} 
+              .small-col-4
+              {width:33.33%;} 
+              .small-col-5
+              {width:41.66%;} 
+              .small-col-6
+              {width:50%;} 
+              .small-col-7
+              {width:58.33%;} 
+              .small-col-8
+              {width:66.66%;} 
+              .small-col-9
+              {width:75%;} 
+              .small-col-10
+              {width:83.33%;} 
+              .small-col-11
+              {width:91.66%;} 
+              .small-col-12
+              {width:100%;} 
+           }
+           @media only screen and (min-width:1200px)
+           {
+              .small-col-1
+              {width:8.33%;} 
+              .small-col-2
+              {width:16.66%;} 
+              .small-col-3
+              {width:25%;} 
+              .small-col-4
+              {width:33.33%;} 
+              .small-col-5
+              {width:41.66%;} 
+              .small-col-6
+              {width:50%;} 
+              .small-col-7
+              {width:58.33%;} 
+              .small-col-8
+              {width:66.66%;} 
+              .small-col-9
+              {width:75%;} 
+              .small-col-10
+              {width:83.33%;} 
+              .small-col-11
+              {width:91.66%;} 
+              .small-col-12
+              {width:100%;} 
+           }
+           *
+           {
+               box-sizing: :border-box;
+           }
+           
+           [class *="col-"] 
+           {
+               width:100%;
+           }}
